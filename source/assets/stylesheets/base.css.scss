@@ -6,3 +6,34 @@
 @import 'compass';
 @import "normalize";
 @import "helpers";
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: image-url('bg.jpg') center top no-repeat;
+//  background: image-url('http://placehold.it/360x567') left top no-repeat;
+  background-size: 100% auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.holder {
+  width: 100%;
+  height: 100%;
+}
+
+.log {
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: normal;
+  font-size: .8em;
+}

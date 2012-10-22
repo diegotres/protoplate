@@ -14,10 +14,10 @@
     <meta http-equiv="cleartype"                       content="on">
     <meta name="HandheldFriendly"                      content="True">
     <meta name="MobileOptimized"                       content="320">
-    <meta name="viewport"                              content="width=device-width">
+    <meta name="viewport"                              content="width=device-width,initial-scale=1">
     <meta name="apple-mobile-web-app-capable"          content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title"            content="App Title">
+    <meta name="apple-mobile-web-app-title"            content="MiniBril">
 
     <!-- about: site name -->
     <meta property="og:site_name"                      content="">
@@ -30,7 +30,7 @@
     <meta property="og:url"                            content="">
 
     <!-- about: page title -->
-    <title>Title</title>
+    <title>MiniBril</title>
     <meta property="og:title"                          content="">
     <meta itemprop="name"                              content="">
 
@@ -46,13 +46,19 @@
     <%= favicon_tag 'touch/apple-touch-icon-57x57-precomposed.png',   :rel => 'apple-touch-icon-precomposed', :sizes => '57x57' %>
     <%= favicon_tag 'touch/apple-touch-icon.png',                     :rel => 'shortcut icon' %>
 
+    <!-- stylesheet -->
     <%= stylesheet_link_tag "base" %>
+    <%#= yield :stylesheet %>
+
+    <!-- javascript -->
     <%= javascript_include_tag "head" %>
   </head>
 
   <body class="<%= page_classes %>">
     <%= yield %>
-    <%= image_tag 'startup/startup-tablet-landscape-retina.png' %>
+
+    <!-- javacript -->
     <%= javascript_include_tag  "all" %>
+    <%#= yield :javascript %>
   </body>
 </html>
