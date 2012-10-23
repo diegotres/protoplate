@@ -1,26 +1,26 @@
 CACHE MANIFEST
-# v125
+# v127
 
 # Explicitly cached 'master entries'.
 CACHE:
-/index.html
-
-/assets/stylesheets/base.css
-
-/assets/javascripts/head.js
-/assets/javascripts/all.js
-
-/assets/images/bg.jpg
-/assets/images/startup/startup-retina.png
-/assets/images/startup/startup-tablet-landscape-retina.png
-/assets/images/startup/startup-tablet-landscape.png
-/assets/images/startup/startup-tablet-landscape.png
-/assets/images/startup/startup-tablet-portrait-retina.png
-/assets/images/startup/startup-tablet-portrait.png
-/assets/images/startup/startup.png
-
-/assets/sounds/short_question.mp3
-/assets/sounds/long_question.mp3
+# /index.html
+#
+# /assets/stylesheets/base.css
+#
+# /assets/javascripts/head.js
+# /assets/javascripts/all.js
+#
+# /assets/images/bg.jpg
+# /assets/images/startup/startup-retina.png
+# /assets/images/startup/startup-tablet-landscape-retina.png
+# /assets/images/startup/startup-tablet-landscape.png
+# /assets/images/startup/startup-tablet-landscape.png
+# /assets/images/startup/startup-tablet-portrait-retina.png
+# /assets/images/startup/startup-tablet-portrait.png
+# /assets/images/startup/startup.png
+#
+# /assets/sounds/short_question.mp3
+# /assets/sounds/long_question.mp3
 
 # Resources that require the user to be online.
 NETWORK:
